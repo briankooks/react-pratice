@@ -5,18 +5,18 @@ import { useHistory } from "react-router-dom";
 import SweetAlert from "react-bootstrap-sweetalert";
 
 export const ProtectedRoute = ({ ...rest }) => {
-  const history = useHistory();
-  let { user } = useAuth();
-  if (!user || !user.token || user.token === "") {
-    return (
-      <SweetAlert
-        title="You must be signed in!"
-        onCancel={() => history.push("/auth/sign-in")}
-        onConfirm={() => history.push("/auth/sign-in")}
-        confirmBtnCssClass={"px-5"}
-      />
-    );
-  }
+  // const history = useHistory();
+  // let { user } = useAuth();
+  // if (!user || !user.token || user.token === "") {
+  //   return (
+  //     <SweetAlert
+  //       title="You must be signed in!"
+  //       onCancel={() => history.push("/auth/sign-in")}
+  //       onConfirm={() => history.push("/auth/sign-in")}
+  //       confirmBtnCssClass={"px-5"}
+  //     />
+  //   );
+  // }
 
   return <Route {...rest} />;
 };

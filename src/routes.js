@@ -25,14 +25,14 @@ import SignUp from "views/auth/signUp/index.jsx";
 
 const routes = [
   {
-    name: "Main Dashboard",
+    name: "삼성전자",
     layout: "/admin",
     path: "/default",
     icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
     component: MainDashboard,
   },
   {
-    name: "NFT Marketplace",
+    name: "현대자동차",
     layout: "/admin",
     path: "/nft-marketplace",
     icon: (
@@ -47,21 +47,21 @@ const routes = [
     secondary: true,
   },
   {
-    name: "Data Tables",
+    name: "SK하이닉스",
     layout: "/admin",
     icon: <Icon as={MdBarChart} width='20px' height='20px' color='inherit' />,
     path: "/data-tables",
     component: DataTables,
   },
   {
-    name: "Profile",
+    name: "LG전자",
     layout: "/admin",
     path: "/profile",
     icon: <Icon as={MdPerson} width='20px' height='20px' color='inherit' />,
     component: Profile,
   },
   {
-    name: "Signin",
+    name: "포스코",
     layout: "/auth",
     path: "/sign-in",
     icon: (
@@ -71,7 +71,7 @@ const routes = [
     hide: true
   },
   {
-    name: "Sign up",
+    name: "위메이드",
     layout: "/auth",
     path: "/sign-up",
     icon: (

@@ -79,8 +79,8 @@ export default function UserReports() {
               }
             />
           }
-          name='Earnings'
-          value='$350.4'
+          name='매출'
+          value='\100'
         />
         <MiniStatistics
           startContent={
@@ -93,8 +93,8 @@ export default function UserReports() {
               }
             />
           }
-          name='Spend this month'
-          value='$642.39'
+          name='영업이익'
+          value='50won'
         />
         <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
         <MiniStatistics
@@ -115,8 +115,8 @@ export default function UserReports() {
               </Select>
             </Flex>
           }
-          name='Your balance'
-          value='$1,000'
+          name='성과급내놔'
+          value='$1,0000'
         />
         <MiniStatistics
           startContent={
@@ -142,7 +142,7 @@ export default function UserReports() {
             />
           }
           name='Total Projects'
-          value='2935'
+          value='218'
         />
       </SimpleGrid>
 
